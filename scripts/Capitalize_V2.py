@@ -17,4 +17,8 @@ for dir_name in dir_list:
                 print(f'Old filename {old_name}')
                 print(f'New filename {new_name}')
                 print('=================================')
+                print(f'New filename {new_name}')
+                print('///////////////////////////////')
                 os.rename(old_name, new_name)
+
+     
